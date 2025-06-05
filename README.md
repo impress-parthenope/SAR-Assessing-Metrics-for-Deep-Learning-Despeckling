@@ -16,6 +16,20 @@ quality metrics. In a second phase, the same SAR assessing metrics may be used d
 validation stage.
 The four SAR assessing metrics are the ENL, MoI, MoR, VoR. All of them are no-reference metrics and can be used for the validation stage of both supervised and unsupervised methods. 
 
+# Usage
+import the desired metric from *sar_validation_loss.py* and follow description within the descript
+
+all the metrics are implemented considered intensity format of the data
+
+## Variable Defintion:
+all the varianile are in intensity format and considered as tensor of four dimensions [batch_size, 1, rows, cols]
+
+**inputs**: SAR image used as input of the DL method
+
+**outputs**: noise-free estimate provided as output of the DL method
+
+**ref**:	(only for supervised methods) noise-free reference
+
 
 # Team members
  Sergio Vitale    (contact person, sergio.vitale@uniparthenope.it);
