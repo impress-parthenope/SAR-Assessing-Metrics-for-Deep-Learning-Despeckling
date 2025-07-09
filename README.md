@@ -5,8 +5,17 @@ This repository contains the pytorch implementation of four SAR assessing metric
 
 if you find it useful and use it for you research, please cite as the following 
 ```
-to be defined
+@ARTICLE{11028079,
+  author={Vitale, Sergio and Ferraioli, Giampaolo and Pascazio, Vito and Deniz, Luis Gomez},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Enhanced Deep Learning {SAR} Despeckling Networks Based on SAR Assessing Metrics}, 
+  year={2025},
+  volume={22},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2025.3577907}}
 ```
+
 
 In this work, a framework for assessing deep learning based methodologies for SAR image despeckling is presented.
 The definition of a DL method is based on the observation of training and validation loss and, typically, euclidean metrics, such as L1 or L2 are considered.
@@ -15,6 +24,10 @@ In a first phase, SAR assessing metrics may be used only as validation metrics w
 quality metrics. In a second phase, the same SAR assessing metrics may be used directly for enhancing the DL solution by the addressing specific issues arisen during the previous SAR based
 validation stage.
 The four SAR assessing metrics are the ENL, MoI, MoR, VoR. All of them are no-reference metrics and can be used for the validation stage of both supervised and unsupervised methods. 
+
+![immagine](https://github.com/user-attachments/assets/7636b5c4-1c4b-4b22-a671-167020d91b2d)
+
+![immagine](https://github.com/user-attachments/assets/904e9fa7-6454-4421-af38-66058568da77)
 
 # Usage
 import the desired metric from *sar_validation_loss.py* and follow description within the descript
@@ -38,7 +51,7 @@ all the varianile are in intensity format and considered as tensor of four dimen
  
  Vito Pascazio (vito.pascazio@uniparthenope.it);
  
- Luis Gomez Denis (luis.gomez@ulpgc.es)
+ Luis Gomez Deniz (luis.gomez@ulpgc.es)
  
 # License
 Copyright (c) 2025 Dipartimento di Ingegneria and Dipartimento di Scienze e Tecnologie of Università degli Studi di Napoli "Parthenope".
